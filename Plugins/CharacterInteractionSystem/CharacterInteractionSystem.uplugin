@@ -1,0 +1,42 @@
+﻿{
+    "FileVersion":  3,
+    "Version":  1,
+    "VersionName":  "1.0",
+    "FriendlyName":  "CharacterInteractionSystem",
+    "Description":  "",
+    "Category":  "Gameplay",
+    "CreatedBy":  "Dmitriy Vergasov",
+    "CreatedByURL":  "https://www.linkedin.com/in/rim2812/",
+    "DocsURL":  "https://dmitriy-vergasov.gitbook.io/character_interaction_system/",
+    "MarketplaceURL":  "com.epicgames.launcher://ue/marketplace/product/7751a7d6c3d44f2eb8af84a2af3d7e69",
+    "SupportURL":  "https://discord.gg/bSgRMsh3mR",
+    "EngineVersion":  "5.6.0",
+    "CanContainContent":  true,
+    "Installed":  true,
+    "Modules":  [
+                    {
+                        "Name":  "CharacterInteractionSystem",
+                        "Type":  "Runtime",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64",
+                                                  "Linux",
+                                                  "IOS",
+                                                  "Android",
+                                                  "Mac"
+                                              ]
+                    },
+                    {
+                        "Name":  "CharacterInteractionSystemEditor",
+                        "Type":  "Editor",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64",
+                                                  "Linux",
+                                                  "IOS",
+                                                  "Android",
+                                                  "Mac"
+                                              ]
+                    }
+                ]
+}

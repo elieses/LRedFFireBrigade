@@ -10,7 +10,11 @@ public class LRedFFireBrigade : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {"AIModule", "NavigationSystem"});
+		PrivateDependencyModuleNames.AddRange(new string[] {"AIModule", 
+			"NavigationSystem",
+			"GameplayTags",                // FGameplayTag 需要
+			"UMG" 
+		});
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

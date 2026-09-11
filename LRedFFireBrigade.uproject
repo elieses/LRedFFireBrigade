@@ -28,6 +28,11 @@
 		{
 			"Name": "BlueprintBridge",
 			"Enabled": true
+		},
+		{
+			"Name": "CharacterInteractionSystem",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7751a7d6c3d44f2eb8af84a2af3d7e69"
 		}
 	]
 }
